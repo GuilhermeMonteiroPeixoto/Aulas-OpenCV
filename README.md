@@ -4,9 +4,11 @@
  - [x] Numpy 
  - [x] Matplotlib
  - [x] OpenCV
+ 
+## Projetos
 
-## Detecção de Faces
+ - [x] Counting Colonies using SimpleBlobDetector
 
-## Detecção de Mudanças em Imagem Referência
+ - [x] Find Objects using matchTemplate
 
-## Detecção de Bolhas
+ - [x] Motion Analysis using BackgroundSubtractor
