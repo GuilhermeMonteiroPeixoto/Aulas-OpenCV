@@ -7,4 +7,6 @@
 
 ## Detecção de Faces
 
-## Detecção de Mudanças
+## Detecção de Mudanças em Imagem Referência
+
+## Detecção de Bolhas
