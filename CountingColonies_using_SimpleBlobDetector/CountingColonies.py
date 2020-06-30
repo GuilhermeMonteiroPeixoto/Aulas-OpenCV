@@ -40,5 +40,5 @@ detector = create_blob_detector()
 saida = detector.detect(imagem_tratada)
 
 number_of_blobs = len(saida)
-text = "Number of Blobs: " + str(len(saida))
+text = "Numero de Colonias: " + str(len(saida))
 print(text)
