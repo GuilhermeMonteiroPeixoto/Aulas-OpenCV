@@ -1,4 +1,4 @@
-# AULA 3 Detector de Blobs
+# Detector de Blobs
 
 #Importando Bibliotecas
 import numpy as np
