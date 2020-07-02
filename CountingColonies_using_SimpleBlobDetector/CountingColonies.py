@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 #Importando a imagem
-imagem = cv2.imread('Placa_Petri_Bacteria1.jpg')
+imagem = cv2.imread('Bolor.png')
 imagem = cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB)
 
 plt.imshow(imagem)
@@ -39,6 +39,14 @@ def create_blob_detector(roi_size=(140, 140), blob_min_area=1,
 detector = create_blob_detector()
 saida = detector.detect(imagem_tratada)
 
+blank = np.zeros((1,1)) 
+blobs = cv2.drawKeypoints(imagem_tratada, saida, blank, (0,0,255),
+                                      cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
+
 number_of_blobs = len(saida)
 text = "Numero de Colonias: " + str(len(saida))
 print(text)
+
+plt.title("Plotando as Colonias detectadas")
+plt.imshow(blobs)
+plt.show()
