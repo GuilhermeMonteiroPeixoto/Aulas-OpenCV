@@ -1,6 +1,6 @@
 # Aulas OpenCV
 
-## Ferramentas
+## Bibliotecas
  - [x] Numpy 
  - [x] Matplotlib
  - [x] OpenCV
