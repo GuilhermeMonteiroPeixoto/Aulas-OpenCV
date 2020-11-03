@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 #Importando a imagem
-imagem = cv2.imread('Bolor.png')
+imagem = cv2.imread('Bolor3.png')
 imagem = cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB)
 
 plt.imshow(imagem)
